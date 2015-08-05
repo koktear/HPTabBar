@@ -14,6 +14,14 @@
 		94C092C41B720366009C5E7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C092C31B720366009C5E7B /* Images.xcassets */; };
 		94C092C71B720366009C5E7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94C092C51B720366009C5E7B /* LaunchScreen.xib */; };
 		94C092D31B720366009C5E7B /* HPTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C092D21B720366009C5E7B /* HPTabBarTests.m */; };
+		94C092E01B72041D009C5E7B /* HPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C092DF1B72041D009C5E7B /* HPTabBarViewController.m */; };
+		94C092E31B72070D009C5E7B /* HPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C092E21B72070D009C5E7B /* HPTabBar.m */; };
+		94C092E61B7209A2009C5E7B /* HPTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C092E51B7209A2009C5E7B /* HPTabBarButton.m */; };
+		94C092E81B720D42009C5E7B /* menu_find.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C092E71B720D42009C5E7B /* menu_find.png */; };
+		94C092EA1B720D55009C5E7B /* menu_friend.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C092E91B720D55009C5E7B /* menu_friend.png */; };
+		94C092EC1B720D5D009C5E7B /* menu_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C092EB1B720D5D009C5E7B /* menu_home.png */; };
+		94C092EE1B720D62009C5E7B /* menu_setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C092ED1B720D62009C5E7B /* menu_setting.png */; };
+		94C092F01B720D6D009C5E7B /* menu_theme.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C092EF1B720D6D009C5E7B /* menu_theme.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,17 @@
 		94C092CC1B720366009C5E7B /* HPTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C092D11B720366009C5E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94C092D21B720366009C5E7B /* HPTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPTabBarTests.m; sourceTree = "<group>"; };
+		94C092DE1B72041D009C5E7B /* HPTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTabBarViewController.h; sourceTree = "<group>"; };
+		94C092DF1B72041D009C5E7B /* HPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTabBarViewController.m; sourceTree = "<group>"; };
+		94C092E11B72070D009C5E7B /* HPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTabBar.h; sourceTree = "<group>"; };
+		94C092E21B72070D009C5E7B /* HPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTabBar.m; sourceTree = "<group>"; };
+		94C092E41B7209A2009C5E7B /* HPTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTabBarButton.h; sourceTree = "<group>"; };
+		94C092E51B7209A2009C5E7B /* HPTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTabBarButton.m; sourceTree = "<group>"; };
+		94C092E71B720D42009C5E7B /* menu_find.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_find.png; sourceTree = "<group>"; };
+		94C092E91B720D55009C5E7B /* menu_friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_friend.png; sourceTree = "<group>"; };
+		94C092EB1B720D5D009C5E7B /* menu_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_home.png; sourceTree = "<group>"; };
+		94C092ED1B720D62009C5E7B /* menu_setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_setting.png; sourceTree = "<group>"; };
+		94C092EF1B720D6D009C5E7B /* menu_theme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_theme.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,7 @@
 		94C092B51B720366009C5E7B /* HPTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				94C092DD1B7203D0009C5E7B /* lib */,
 				94C092BA1B720366009C5E7B /* AppDelegate.h */,
 				94C092BB1B720366009C5E7B /* AppDelegate.m */,
 				94C092BD1B720366009C5E7B /* ViewController.h */,
@@ -117,6 +137,32 @@
 				94C092D11B720366009C5E7B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94C092DC1B7203BD009C5E7B /* HPTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				94C092EF1B720D6D009C5E7B /* menu_theme.png */,
+				94C092ED1B720D62009C5E7B /* menu_setting.png */,
+				94C092EB1B720D5D009C5E7B /* menu_home.png */,
+				94C092E91B720D55009C5E7B /* menu_friend.png */,
+				94C092E71B720D42009C5E7B /* menu_find.png */,
+				94C092DE1B72041D009C5E7B /* HPTabBarViewController.h */,
+				94C092DF1B72041D009C5E7B /* HPTabBarViewController.m */,
+				94C092E41B7209A2009C5E7B /* HPTabBarButton.h */,
+				94C092E51B7209A2009C5E7B /* HPTabBarButton.m */,
+				94C092E11B72070D009C5E7B /* HPTabBar.h */,
+				94C092E21B72070D009C5E7B /* HPTabBar.m */,
+			);
+			path = HPTabBar;
+			sourceTree = "<group>";
+		};
+		94C092DD1B7203D0009C5E7B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				94C092DC1B7203BD009C5E7B /* HPTabBar */,
+			);
+			name = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +214,7 @@
 				TargetAttributes = {
 					94C092B21B720366009C5E7B = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3588VJQY5B;
 					};
 					94C092CB1B720366009C5E7B = {
 						CreatedOnToolsVersion = 6.4;
@@ -199,9 +246,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C092F01B720D6D009C5E7B /* menu_theme.png in Resources */,
 				94C092C21B720366009C5E7B /* Main.storyboard in Resources */,
+				94C092E81B720D42009C5E7B /* menu_find.png in Resources */,
 				94C092C71B720366009C5E7B /* LaunchScreen.xib in Resources */,
+				94C092EA1B720D55009C5E7B /* menu_friend.png in Resources */,
 				94C092C41B720366009C5E7B /* Images.xcassets in Resources */,
+				94C092EC1B720D5D009C5E7B /* menu_home.png in Resources */,
+				94C092EE1B720D62009C5E7B /* menu_setting.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C092E31B72070D009C5E7B /* HPTabBar.m in Sources */,
 				94C092BF1B720366009C5E7B /* ViewController.m in Sources */,
 				94C092BC1B720366009C5E7B /* AppDelegate.m in Sources */,
+				94C092E01B72041D009C5E7B /* HPTabBarViewController.m in Sources */,
 				94C092B91B720366009C5E7B /* main.m in Sources */,
+				94C092E61B7209A2009C5E7B /* HPTabBarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +402,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HPTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +415,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HPTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
