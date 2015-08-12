@@ -30,7 +30,7 @@
 - (CGRect)imageRectForContentRect:(CGRect)contentRect {
     CGFloat imgW = contentRect.size.width-20;
     CGFloat imgH = contentRect.size.height * HPTabBarButtonRatio-10;
-    return CGRectMake(7, 0, imgW, imgH);
+    return CGRectMake(10, 5, imgW, imgH);
 }
 
 - (CGRect)titleRectForContentRect:(CGRect)contentRect {

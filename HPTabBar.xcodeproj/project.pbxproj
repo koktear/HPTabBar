@@ -18,6 +18,24 @@
 		94C092E01B72041D009C5E7B /* HPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C092DF1B72041D009C5E7B /* HPTabBarViewController.m */; };
 		94C092E31B72070D009C5E7B /* HPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C092E21B72070D009C5E7B /* HPTabBar.m */; };
 		94C092E61B7209A2009C5E7B /* HPTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C092E51B7209A2009C5E7B /* HPTabBarButton.m */; };
+		94CB8B5A1B7B56420079500C /* tabbar_discover_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B481B7B56420079500C /* tabbar_discover_highlighted@2x.png */; };
+		94CB8B5B1B7B56420079500C /* tabbar_discover_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B491B7B56420079500C /* tabbar_discover_selected@2x.png */; };
+		94CB8B5C1B7B56420079500C /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B4A1B7B56420079500C /* tabbar_discover@2x.png */; };
+		94CB8B5D1B7B56420079500C /* tabbar_home_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B4B1B7B56420079500C /* tabbar_home_highlighted@2x.png */; };
+		94CB8B5E1B7B56420079500C /* tabbar_home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B4C1B7B56420079500C /* tabbar_home_selected@2x.png */; };
+		94CB8B5F1B7B56420079500C /* tabbar_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B4D1B7B56420079500C /* tabbar_home@2x.png */; };
+		94CB8B601B7B56420079500C /* tabbar_message_center_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B4E1B7B56420079500C /* tabbar_message_center_highlighted@2x.png */; };
+		94CB8B611B7B56420079500C /* tabbar_message_center_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B4F1B7B56420079500C /* tabbar_message_center_selected@2x.png */; };
+		94CB8B621B7B56420079500C /* tabbar_message_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B501B7B56420079500C /* tabbar_message_center@2x.png */; };
+		94CB8B631B7B56420079500C /* tabbar_more_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B511B7B56420079500C /* tabbar_more_highlighted@2x.png */; };
+		94CB8B641B7B56420079500C /* tabbar_more_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B521B7B56420079500C /* tabbar_more_selected@2x.png */; };
+		94CB8B651B7B56420079500C /* tabbar_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B531B7B56420079500C /* tabbar_more@2x.png */; };
+		94CB8B661B7B56420079500C /* tabbar_music_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B541B7B56420079500C /* tabbar_music_highlighted@2x.png */; };
+		94CB8B671B7B56420079500C /* tabbar_music_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B551B7B56420079500C /* tabbar_music_selected@2x.png */; };
+		94CB8B681B7B56420079500C /* tabbar_music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B561B7B56420079500C /* tabbar_music@2x.png */; };
+		94CB8B691B7B56420079500C /* tabbar_profile_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B571B7B56420079500C /* tabbar_profile_highlighted@2x.png */; };
+		94CB8B6A1B7B56420079500C /* tabbar_profile_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B581B7B56420079500C /* tabbar_profile_selected@2x.png */; };
+		94CB8B6B1B7B56420079500C /* tabbar_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CB8B591B7B56420079500C /* tabbar_profile@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +70,24 @@
 		94C092E21B72070D009C5E7B /* HPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTabBar.m; sourceTree = "<group>"; };
 		94C092E41B7209A2009C5E7B /* HPTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTabBarButton.h; sourceTree = "<group>"; };
 		94C092E51B7209A2009C5E7B /* HPTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTabBarButton.m; sourceTree = "<group>"; };
+		94CB8B481B7B56420079500C /* tabbar_discover_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover_highlighted@2x.png"; sourceTree = "<group>"; };
+		94CB8B491B7B56420079500C /* tabbar_discover_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover_selected@2x.png"; sourceTree = "<group>"; };
+		94CB8B4A1B7B56420079500C /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		94CB8B4B1B7B56420079500C /* tabbar_home_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_highlighted@2x.png"; sourceTree = "<group>"; };
+		94CB8B4C1B7B56420079500C /* tabbar_home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_selected@2x.png"; sourceTree = "<group>"; };
+		94CB8B4D1B7B56420079500C /* tabbar_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@2x.png"; sourceTree = "<group>"; };
+		94CB8B4E1B7B56420079500C /* tabbar_message_center_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center_highlighted@2x.png"; sourceTree = "<group>"; };
+		94CB8B4F1B7B56420079500C /* tabbar_message_center_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center_selected@2x.png"; sourceTree = "<group>"; };
+		94CB8B501B7B56420079500C /* tabbar_message_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center@2x.png"; sourceTree = "<group>"; };
+		94CB8B511B7B56420079500C /* tabbar_more_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_more_highlighted@2x.png"; sourceTree = "<group>"; };
+		94CB8B521B7B56420079500C /* tabbar_more_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_more_selected@2x.png"; sourceTree = "<group>"; };
+		94CB8B531B7B56420079500C /* tabbar_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_more@2x.png"; sourceTree = "<group>"; };
+		94CB8B541B7B56420079500C /* tabbar_music_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_music_highlighted@2x.png"; sourceTree = "<group>"; };
+		94CB8B551B7B56420079500C /* tabbar_music_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_music_selected@2x.png"; sourceTree = "<group>"; };
+		94CB8B561B7B56420079500C /* tabbar_music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_music@2x.png"; sourceTree = "<group>"; };
+		94CB8B571B7B56420079500C /* tabbar_profile_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile_highlighted@2x.png"; sourceTree = "<group>"; };
+		94CB8B581B7B56420079500C /* tabbar_profile_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile_selected@2x.png"; sourceTree = "<group>"; };
+		94CB8B591B7B56420079500C /* tabbar_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +171,24 @@
 		94C092DC1B7203BD009C5E7B /* HPTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				94CB8B481B7B56420079500C /* tabbar_discover_highlighted@2x.png */,
+				94CB8B491B7B56420079500C /* tabbar_discover_selected@2x.png */,
+				94CB8B4A1B7B56420079500C /* tabbar_discover@2x.png */,
+				94CB8B4B1B7B56420079500C /* tabbar_home_highlighted@2x.png */,
+				94CB8B4C1B7B56420079500C /* tabbar_home_selected@2x.png */,
+				94CB8B4D1B7B56420079500C /* tabbar_home@2x.png */,
+				94CB8B4E1B7B56420079500C /* tabbar_message_center_highlighted@2x.png */,
+				94CB8B4F1B7B56420079500C /* tabbar_message_center_selected@2x.png */,
+				94CB8B501B7B56420079500C /* tabbar_message_center@2x.png */,
+				94CB8B511B7B56420079500C /* tabbar_more_highlighted@2x.png */,
+				94CB8B521B7B56420079500C /* tabbar_more_selected@2x.png */,
+				94CB8B531B7B56420079500C /* tabbar_more@2x.png */,
+				94CB8B541B7B56420079500C /* tabbar_music_highlighted@2x.png */,
+				94CB8B551B7B56420079500C /* tabbar_music_selected@2x.png */,
+				94CB8B561B7B56420079500C /* tabbar_music@2x.png */,
+				94CB8B571B7B56420079500C /* tabbar_profile_highlighted@2x.png */,
+				94CB8B581B7B56420079500C /* tabbar_profile_selected@2x.png */,
+				94CB8B591B7B56420079500C /* tabbar_profile@2x.png */,
 				94BF5CBB1B783B46002C1E97 /* HPNavigationViewController.h */,
 				94BF5CBC1B783B46002C1E97 /* HPNavigationViewController.m */,
 				94C092DE1B72041D009C5E7B /* HPTabBarViewController.h */,
@@ -237,8 +291,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C092C21B720366009C5E7B /* Main.storyboard in Resources */,
+				94CB8B6B1B7B56420079500C /* tabbar_profile@2x.png in Resources */,
+				94CB8B601B7B56420079500C /* tabbar_message_center_highlighted@2x.png in Resources */,
+				94CB8B5A1B7B56420079500C /* tabbar_discover_highlighted@2x.png in Resources */,
+				94CB8B6A1B7B56420079500C /* tabbar_profile_selected@2x.png in Resources */,
 				94C092C71B720366009C5E7B /* LaunchScreen.xib in Resources */,
+				94CB8B5B1B7B56420079500C /* tabbar_discover_selected@2x.png in Resources */,
+				94CB8B5F1B7B56420079500C /* tabbar_home@2x.png in Resources */,
+				94CB8B611B7B56420079500C /* tabbar_message_center_selected@2x.png in Resources */,
+				94CB8B691B7B56420079500C /* tabbar_profile_highlighted@2x.png in Resources */,
+				94CB8B631B7B56420079500C /* tabbar_more_highlighted@2x.png in Resources */,
+				94CB8B661B7B56420079500C /* tabbar_music_highlighted@2x.png in Resources */,
+				94CB8B5E1B7B56420079500C /* tabbar_home_selected@2x.png in Resources */,
+				94CB8B671B7B56420079500C /* tabbar_music_selected@2x.png in Resources */,
 				94C092C41B720366009C5E7B /* Images.xcassets in Resources */,
+				94CB8B651B7B56420079500C /* tabbar_more@2x.png in Resources */,
+				94CB8B641B7B56420079500C /* tabbar_more_selected@2x.png in Resources */,
+				94CB8B621B7B56420079500C /* tabbar_message_center@2x.png in Resources */,
+				94CB8B5C1B7B56420079500C /* tabbar_discover@2x.png in Resources */,
+				94CB8B681B7B56420079500C /* tabbar_music@2x.png in Resources */,
+				94CB8B5D1B7B56420079500C /* tabbar_home_highlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

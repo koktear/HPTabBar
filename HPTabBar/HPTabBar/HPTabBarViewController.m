@@ -43,15 +43,15 @@
 
 - (void)setupAllChildViewController {
     homeViewController *home = [[homeViewController alloc]init];
-    [self setupChildViewController:home title:@"首页" imageName:@"menu_home@3x" selectedImageName:@"menu_home@3x"];
+    [self setupChildViewController:home title:@"首页" imageName:@"tabbar_home@2x" selectedImageName:@"tabbar_home_selected@2x"];
     UIViewController *message = [[UIViewController alloc]init];
-    [self setupChildViewController:message title:@"动态" imageName:@"menu_find@3x" selectedImageName:@"menu_find@3x"];
+    [self setupChildViewController:message title:@"消息" imageName:@"tabbar_message_center@2x" selectedImageName:@"tabbar_message_center_selected@2x"];
     UIViewController *find = [[UIViewController alloc]init];
-    [self setupChildViewController:find title:@"好友" imageName:@"menu_friend@3x" selectedImageName:@"menu_friend@3x"];
+    [self setupChildViewController:find title:@"发现" imageName:@"tabbar_discover@2x" selectedImageName:@"tabbar_discover_selected@2x"];
     UIViewController *theme = [[UIViewController alloc]init];
-    [self setupChildViewController:theme title:@"主题" imageName:@"menu_theme@3x" selectedImageName:@"menu_theme@3x"];
+    [self setupChildViewController:theme title:@"音乐" imageName:@"tabbar_music@2x" selectedImageName:@"tabbar_music_selected@2x"];
     UIViewController *setting = [[UIViewController alloc]init];
-    [self setupChildViewController:setting title:@"设置" imageName:@"menu_setting@3x" selectedImageName:@"menu_setting@3x"];
+    [self setupChildViewController:setting title:@"设置" imageName:@"tabbar_profile@2x" selectedImageName:@"tabbar_profile_selected@2x"];
     
 }
 
