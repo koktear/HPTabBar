@@ -28,7 +28,7 @@
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor purpleColor];
+        self.backgroundColor = [UIColor cyanColor];
     }
     return self;
 }
@@ -46,9 +46,8 @@
 
 - (void)btnClick:(HPTabBarButton *)btn {
     if ([self.delegate respondsToSelector:@selector(tabBar:didSelectedButtonFrom:to:)]) {
-        [self.delegate tabBar:self didSelectedButtonFrom:self.selectedButton.tag to:btn.tag];
+        [self.delegate tabBar:self didSelectedButtonFrom:(int)self.selectedButton.tag to:(int)btn.tag];
     }
-    
     self.selectedButton.selected = NO;
     btn.selected = YES;
     self.selectedButton = btn;
