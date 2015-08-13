@@ -36,7 +36,7 @@
     // 设置文字属性
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
     textAttrs[NSForegroundColorAttributeName] = [UIColor orangeColor];
-    textAttrs[NSShadowAttributeName] = [NSValue valueWithUIOffset:UIOffsetZero];
+//    textAttrs[NSShadowAttributeName] = [NSValue valueWithUIOffset:UIOffsetZero];
     textAttrs[NSFontAttributeName] = [UIFont systemFontOfSize:15];
     [item setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     [item setTitleTextAttributes:textAttrs forState:UIControlStateHighlighted];
@@ -55,37 +55,49 @@
     UINavigationBar *navBar = [UINavigationBar appearance];
     
     // 设置背景
-    //    if (!iOS7) {
-    //        [navBar setBackgroundImage:[UIImage imageWithName:@"navigationbar_background"] forBarMetrics:UIBarMetricsDefault];
-    //        [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackOpaque;
-    //    }
+//    [navBar setBackgroundImage:[UIImage imageNamed:@"navigationbar_background"] forBarMetrics:UIBarMetricsDefault];
+//    [navBar setBackgroundColor:[UIColor redColor]];
+    [navBar setBarTintColor:[UIColor colorWithWhite:1 alpha:0.7]];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
     // 设置标题属性
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    textAttrs[UITextAttributeTextColor] = [UIColor blackColor];
-    textAttrs[UITextAttributeTextShadowOffset] = [NSValue valueWithUIOffset:UIOffsetZero];
-    textAttrs[UITextAttributeFont] = [UIFont boldSystemFontOfSize:19];
+    textAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    textAttrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:19];
     [navBar setTitleTextAttributes:textAttrs];
 }
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
-{
+{[super pushViewController:viewController animated:animated];
     if (self.viewControllers.count > 0) {
-        viewController.hidesBottomBarWhenPushed = YES;
-        UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
-        [left setBackgroundImage:[UIImage imageNamed:@"navigationbar_back"] forState:UIControlStateNormal];
-        [left setBackgroundImage:[UIImage imageNamed:@"navigationbar_back"] forState:UIControlStateHighlighted];
-        left.frame = (CGRect){CGPointZero, left.currentBackgroundImage.size};
-        //        [button addTarget:self action:@selector(<#selector#>) forControlEvents:UIControlEventTouchUpInside];
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:left];
+//        viewController.hidesBottomBarWhenPushed = YES;
+//        UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
+//        [left setBackgroundImage:[UIImage imageNamed:@"tabbar_more"] forState:UIControlStateNormal];
+//        [left setBackgroundImage:[UIImage imageNamed:@"tabbar_more_highlighted"] forState:UIControlStateHighlighted];
+//        left.frame = (CGRect){CGPointZero, left.currentBackgroundImage.size};
+//        //        [button addTarget:self action:@selector(<#selector#>) forControlEvents:UIControlEventTouchUpInside];
+//        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:left];
+//        
+//        UIButton *right = [UIButton buttonWithType:UIButtonTypeCustom];
+//        [right setBackgroundImage:[UIImage imageNamed:@"tabbar_more"] forState:UIControlStateNormal];
+//        [right setBackgroundImage:[UIImage imageNamed:@"tabbar_more_highlighted"] forState:UIControlStateHighlighted];
+//        right.frame = (CGRect){CGPointZero, right.currentBackgroundImage.size};
+//        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:right];
         
-        UIButton *right = [UIButton buttonWithType:UIButtonTypeCustom];
-        [right setBackgroundImage:[UIImage imageNamed:@"navigationbar_back"] forState:UIControlStateNormal];
-        [right setBackgroundImage:[UIImage imageNamed:@"navigationbar_back"] forState:UIControlStateHighlighted];
-        right.frame = (CGRect){CGPointZero, right.currentBackgroundImage.size};
-        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:right];
+        // 2.导航栏上面的item
+        UIBarButtonItem *barItem =[UIBarButtonItem appearance];
+        UIButton *left = [UIButton buttonWithType:UIButtonTypeCustom];
+        [left setBackgroundImage:[UIImage imageNamed:@"tabbar_more"] forState:UIControlStateNormal];
+        [left setBackgroundImage:[UIImage imageNamed:@"tabbar_more_highlighted"] forState:UIControlStateHighlighted];
+        [left setFrame:CGRectMake(0, 0, 80, 40)];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:left];
+        // 2.2.设置item的文字属性
+        NSDictionary *barItemTextAttr = @{ NSForegroundColorAttributeName : [UIColor darkGrayColor],
+                                           NSFontAttributeName : [UIFont systemFontOfSize:15] };
+        [barItem setTitleTextAttributes:barItemTextAttr forState:UIControlStateNormal];
+        [barItem setTitleTextAttributes:barItemTextAttr forState:UIControlStateHighlighted];
     }
-    [super pushViewController:viewController animated:animated];
+    
 }
 
 - (void)more
